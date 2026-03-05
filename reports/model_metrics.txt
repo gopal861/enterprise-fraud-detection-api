@@ -1,0 +1,14 @@
+
+MODEL EVALUATION REPORT
+=======================
+
+Dataset size: 5000
+
+Confusion Matrix:
+[[4959   35]
+ [   2    4]]
+
+Accuracy: 0.9926
+Precision: 0.10256410256410256
+Recall: 0.6666666666666666
+F1 Score: 0.17777777777777778

@@ -1,0 +1,18 @@
+LLM EXPLANATION SYSTEM EVALUATION
+================================
+
+Total explanations generated: 122
+
+Token usage:
+Prompt tokens: 10272
+Completion tokens: 7330
+Total tokens: 17602
+
+Average tokens per explanation: 144
+
+Latency:
+Average explanation latency: 2454 ms
+
+Purpose:
+The LLM converts model predictions into human-readable explanations
+for fraud analysts and auditing purposes.
