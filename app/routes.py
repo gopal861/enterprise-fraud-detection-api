@@ -145,3 +145,17 @@ def metrics():
         "llm_total_completion_tokens": llm_usage["total_completion_tokens"],
         "llm_total_tokens": llm_usage["total_tokens"],
     }
+
+@router.get("/")
+def root():
+    return {
+        "status": "running",
+        "service": "Fraud Detection API",
+        "docs": "/docs",
+        "health": "/health",
+        "endpoints": [
+            "/predict",
+            "/predict-with-explanation",
+            "/metrics"
+        ]
+    }
